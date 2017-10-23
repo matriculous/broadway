@@ -4,16 +4,21 @@
 }
 
 .titlenav, .NY {
-  color: white;
   background-image: url(../images/flatiron.png);
 }
 
-.titlenav, .NY, h3 {
-  font-weight: bold
+.titlenav, .NY, #footer {
+  color: white;
+}
+
+.titlenav, .NY, h2, h3 {
+  font-weight: bold;
 }
 
 a:link, a:visited {
   color: white;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 h1 {
@@ -28,12 +33,12 @@ h3, .NY {
   font-size: 23px
 }
 
-.NY {
-  color: white;
+.detail {
+  font-size: 14px;
 }
 
 #footer {
-  color: white;
+  font-size: 11px;
   text-align: left;
   background-color: dimgray;
 }
